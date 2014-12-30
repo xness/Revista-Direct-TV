@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DIRECTV</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
+<script src="js/jquery.parallax-1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.scrollorama.js"></script>
+<script src="js/jquery.scrolldeck.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/scrollspy.js"></script>
+<script src="js/animaciones.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	//$('#nav').localScroll(800);
+
+	RepositionNav();
+	
+	$(window).resize(function(){
+		RepositionNav();
+	});	
+	
+	//.parallax(xPosition, adjuster, inertia, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//adjuster - y position to start from
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	
+
+	$('#header-c5').parallax("50%", 0, 0.1, true);
+	$('#c5-s1').parallax("50%", 500, 0.1, true);
+	$('#c5-s2').parallax("50%", 500, 0.1, true);
+	$('#c5-s3').parallax("50%", 500, 0.1, true);
+	$('#c5-s4').parallax("50%", 3700, 0.1, true);
+
+	var deck = new $.scrolldeck({
+		slides: '.slide',
+		buttons: '#nav-c1 li a',
+		easing: 'easeInOutExpo'
+	});
+
+})
+</script>
+</head>
+
+<body>
+	<ul id="nav-c1" style="top: 80px;">
+		<li class="title-nav-cap">CAPÍTULO 5</li>
+		<li><a href="#c5-s1" title="Next Section">DIRECTV<br/>SIENTE LA COPA</a></li>
+	</ul>
+	
+	<div id="header-c5" class="slide"> 
+
+		<div class="cont-header-cap">
+			<div class="num-cap">
+				<h1>05</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="title-cap">
+				<h1>VIVIR EL MUNDIAL</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="divider-headc5"></div>
+			<div class="clearfloat"></div>
+			<div class="logo-dtvheader"></div>
+			<div class="clearfloat"></div>
+			<div class="icons-head"></div>
+			<div class="clearfloat"></div>
+		</div>
+		<div class="clearfloat"></div>
+		<!--a href="#jugadores" title="Next Section"><div class="arrow-cap"></div></a-->
+	</div>
+	<div id="c5-s1" class="slide">
+		<div class="box-white-c5">
+			<div class="title-first-section">
+				<h1>DIRECTV<br/>SIENTE LA COPA</h1>
+				<div class="line-c5s1"></div>
+			</div>
+			<div class="tooltip-c2-s1">
+				<div class="icon-tooltip-c2-s1">
+					<a class="tooltips" href="#">
+						<img src="img/tooltip_icon.png">
+						<span>“The World Cup has always been an a major event that Caribbean people look forward to every four years, and it has become of even greater importance since Trinidad and Tobago’s participation in 2006. Caribbean people have always supported Brazil, so there was a lot of excitement around this year’s event especially given its close proximity to us. Our first-class coverage of the games fulfilled most of the expectations of our customers and continued to add to building the DIRECTV brand”.</span>
+					</a>
+				</div>
+				<h5><span>Bernard Pantin</span><br/>
+				General Manager<br/>
+				DIRECTV Caribbean</h5>
+			</div>
+
+			<p>Los fanáticos de cada rincón de Sudamérica tenían la alternativa de los 64 partidos con dos canales de audio en español y uno en inglés. Una posibilidad que permitía elegir a una dupla de relator y comentarista siguiendo a una selección específica y a otra dupla que eran voces más neutrales e imparciales.<br/>
+			<br/>
+			Por ejemplo, Julio en Medellín quería escuchar a Jotas Mantillas. Le gustaba que el relator acompañara algunas jugadas con el cántico de la gente de su país: “Olé olé olá olá, que Colombia va a ganar”. Se sentía allí, parte del público. De esa fiebre amarilla que acompañó al equipo de José Pekerman. También se identificaba con los comentarios de Juan Pablo Angel, un delantero experimentado, pero aún vigente con la camiseta de Atlético Nacional.<br/>
+			<br/>
+			“Desde lo tecnológico, DIRECTV marcó dos pautas diferentes a todas las demás opciones: la señal táctica y la posibilidad de elegir quién te narraba el partido. Esas dos alternativas han sido revolucionarias, ya que podías ver los movimientos de cada equipo con una cámara aérea (alimento preciado para los analistas) y, por otro lado, decidías con qué dupla de relato y comentario querías ver tu juego. Esa posibilidad no tiene comparación frente a lo que existe en el actual mercado”, grafica Godoy.<br/>
+			Con su control remoto, el colombiano puso el 614 ó 1614 y simulaba ser un stopper, una marca personal que perseguía al jugador por toda la cancha y tenía cada uno de sus movimientos. Ni siquiera el defensa del otro equipo conocía tanto los desplazamientos de ese delantero como Julio, o mejor dicho como los televidentes que se quedaron con esa ventana de la programación. Si quería cambiarse de equipo, y estar más cerca del otro elenco, iba al 615 ó 1615 para conocer hasta los tics de esa estrella que se tocaba el pelo a cada rato mientras esperaba entrar en acción.<br/>
+			No se quedaba allí, ya que a veces se perdía un momento del partido para recibir una llamada telefónica o algún Twitter de algún amigo que le comentaba una jugada. Entonces se iba a 616 ó 1616 para tener los momentos más destacados del encuentro, los goles o las jugadas polémicas. En definitiva, el televidente se podía meter en la cancha con DIRECTV. Casi como Oliver Stone en el aviso. La diferencia es que no podía interrumpir o cambiar el desenlace del juego.<br/>
+			“Todo lo que DIRECTV entregó es realmente increíble, desde las cámaras alternativas hasta los audios opcionales. Creo que la gran ventaja es que hay de todo para todos, tanto para los más futboleros como para el aficionado de Mundial. A nosotros, los comentaristas, por ejemplo, las cámaras tácticas nos ayudaban mucho para analizar el juego desde otra perspectiva, podíamos ver los movimientos de los equipos, cómo se paraban tácticamente defendiendo y en ataque”, explica el chileno Sebastián Rozental, otro de los analistas de la señal.<p>
+		</div>
+	</div>
+
+	<div id="c5-s2" class="slide">
+		<div class="video-c5s2">
+			<img src="img/video_c5s2.jpg">
+		</div>
+		<div class="title-c5s2">
+			<h2>74% de los clientes</h2>
+			<p>vio algún partido<br/>
+			por DIRECTV Sports</p>
+		</div>
+		<div class="caption-c5s2">
+			<p>Si Julio escuchaba a Jotas Mantillas; Facundo no se perdía a Pablo Giralt. Sabía que lo emocionaba. Y más al ver que el relator rompió en llanto cuando Argentina eliminó a Suiza con el gol de Angel Di María sobre la hora, por los octavos de final. Tampoco aguantó más y acompañó con lágrimas la clasificación a la final de la “Albiceleste” por penales frente a Holanda. Hecho que hacía 24 años no ocurría. Un momento que muchos argentinos jamás habían vivido.<br/>
+			<br/>
+			Nadie mejor que Giralt para acordarse: “Los gritos de gol del Mundial fueron en sí un desahogo de muchas cosas. Fue un Mundial duro en general, por cuestiones afectivas, y difícil en lo personal, por pérdidas irreparables terminó siendo una gran carga emotiva, que me permitió soltarme. Me había propuesto no reprimir ningún tipo de emoción y que los relatos de Argentina les llegaran intensamente a todos los argentinos. Siempre quise que cada amante de este deporte recibiera la pasión y emoción en estado puro y así fue. Tenía ganas de llorar por la alegría que sabía estaba viviendo un país. Los argentinos cada cuatro años, dejamos de lado las divisiones y diferencias para tomarnos de la mano y tirar todos para adelante. Eso sólo lo logra un Mundial de fútbol”.</p>
+		</div>
+	</div>
+	<div id="c5-s3" class="slide">
+		<img src="img/img_c5s3.jpg">
+	</div>
+
+	<div id="c5-s4" class="slide">
+		<div class="graficos1-c2-s2">
+			<img src="img/grf1_c5s4.png">
+		</div>
+		<div class="graficos2-c2-s2">
+			<img src="img/grf2_c5s4.png">
+		</div>
+		<div class="afiche-c5s4">
+			<img src="img/afiche_c5s4.jpg">
+		</div>
+		<div class="afiche2-c5s4">
+			<img src="img/afiche2_c5s4.jpg">
+		</div>
+		<div class="tooltip-c4s5">
+			<div class="icon-tooltip-c4s5">
+				<a class="tooltips" href="#">
+					<img src="img/tooltip_icon.png">
+					<span>“Fue uno de los momentos más importantes de mi carrera, porque esos relatos van a quedar inmortalizados. Y más allá de todo, grafican el sentimiento de un relator, que ama el fútbol y que ama comentar fútbol. Además, los videos de los relatos estallaron en las redes sociales. Eso también hace que nuestra señal se conozca cada vez más en todo el mundo. Lo que no tiene precio. Después de tantos años en DIRECTV, me llena de orgullo ver crecer a la señal, porque comenzó de cero y se instaló definitivamente en toda Latinoamérica”.</span>
+				</a>
+			</div>
+			<p><span>Pablo Giralt</span><br>
+				Relator de DIRECTV Sports</p>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container-footer">
+			<div class="logo-footer">
+			</div>
+			<div class="cont-rs">
+				<div class="fb">
+					<a href=""><img src="img/fb.png"></a>
+				</div>
+				<div class="tw">
+					<a href=""><img src="img/tw.png"></a>
+				</div>
+				<div class="yt">
+					<a href=""><img src="img/yt.png"></a>
+				</div>
+				<div class="gm">
+					<a href=""><img src="img/gm.png"></a>
+				</div>
+			</div>
+			<div class="indice-footer">
+				<div class="col1-footer">
+					<a class="athome" href="#">HOME</a>
+					<a href="#">01. FILMAR EL MUNDIAL</a>
+					<a href="#">02. VER EL MUNDIAL</a>
+					<a href="#">03. MOSTRAR EL MUNDIAL</a>
+					<a href="#">04. ANALIZAR EL MUNDIAL</a>
+				</div>
+				<div class="col2-footer">
+					<a href="">05. VIVIR EL MUNDIAL</a>
+					<a href="">06. ACERCAR EL MUNDIAL</a>
+					<a href="">07. ENTENDER EL MUNDIAL</a>
+					<a href="">08. JUGAR EL MUNDIAL</a>
+				</div>
+				<div class="col3-footer">
+					<a href="">09. DIRIGIR EL MUNDIAL</a>
+					<a href="">10. LIDERAR EN DEPORTE</a>
+					<a href="">11. LOS RATINGS</a>
+					<p>&nbsp;</p>
+				</div>
+				<div class="col4-footer">
+					<p>&nbsp;</p>
+					<a class="athome" href="">CARTA DEL RECTOR</a>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="js/toucheffects.js"></script>
+<script>
+	$('#footer').css({'top':''+($('#footer').prev('div').offset().top + $('#footer').prev('div').height()  ) +'px'});
+</script>
+</body>
+</html>

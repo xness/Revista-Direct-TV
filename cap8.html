@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DIRECTV</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<!-- SEBA -->
+<link href="css/mod.css" rel="stylesheet" type="text/css" />
+<!-- END -->
+<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
+<script src="js/jquery.parallax-1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.scrollorama.js"></script>
+<script src="js/jquery.scrolldeck.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/scrollspy.js"></script>
+<script src="js/animaciones.js"></script>
+<script src="js/jquery.cycle2.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	//$('#nav').localScroll(800);
+
+	RepositionNav();
+	
+	$(window).resize(function(){
+		RepositionNav();
+	});	
+	
+	//.parallax(xPosition, adjuster, inertia, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//adjuster - y position to start from
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	
+
+	$('#header-c8').parallax("50%", 0, 0.1, true);
+	$('#c8-s1').parallax("50%", 500, 0.1, true);
+	$('#c8-s2').parallax("50%", 1500, 0.1, true);
+	$('#c8-s3').parallax("50%", 3500, 0.1, true);
+	$('#c8-s4').parallax("50%", 0, 0.1, true);
+
+	var deck = new $.scrolldeck({
+		slides: '.slide',
+		buttons: '#nav-c1 li a',
+		easing: 'easeInOutExpo'
+	});
+
+})
+</script>
+</head>
+
+<body>
+	<ul id="nav-c1" style="top: 80px;">
+		<li class="title-nav-cap">CAPÍTULO 8</li>
+		<li><a href="#c8-s1" title="Next Section">DIRECTV ES<br/>MULTIPANTALLA</a></li>
+	    <li><a href="#c8-s2" title="Next Section">COMO, CUANDO Y<br/>DONDE QUIERAS</a></li>
+	    <li><a href="#c8-s3" title="Next Section">STREAMING EN VIVO<br/>DE LOS 64 PARTIDOS</a></li>
+	</ul>
+	
+	<div id="header-c8" class="slide">
+
+		<div class="cont-header-cap">
+			<div class="num-cap">
+				<h1>08</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="title-cap">
+				<h1>JUGAR EL MUNDIAL</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="divider-headc8"></div>
+			<div class="clearfloat"></div>
+			<div class="logo-dtvheader"></div>
+			<div class="clearfloat"></div>
+			<div class="icons-head"></div>
+			<div class="clearfloat"></div>
+		</div>
+		<div class="clearfloat"></div>
+		<!--a href="#jugadores" title="Next Section"><div class="arrow-cap"></div></a-->
+	</div>
+	<div id="c8-s1" class="slide">
+		<div class="box-white-c8">
+			<div class="title-first-section">
+				<h1>DIRECTV<br/>ES MULTIPANTALLA</h1>
+				<div class="line-c8s1"></div>
+			</div>
+			<div class="tooltip-c2-s1">
+				<div class="icon-tooltip-c2-s1">
+					<a class="tooltips" href="#">
+						<img src="img/tooltip_icon.png">
+						<span>“El Mundial para DIRECTV Ecuador fue una ventana para dar a conocer el trabajo que hemos realizado por años; gracias al gran despliegue de los talentos periodísticos y nuestros diferenciales tecnológicos de DIRECTV Sports, tuvimos la oportunidad de sorprender y emocionar a nuestros clientes; de superar sus expectativas. No solo les damos televisión, les brindamos una experiencia inigualable”.</span>
+					</a>
+				</div>
+				<h5><span>José Daniel Gómez</span><br/>
+				Presidente Ejecutivo<br/>
+				DIRECTV Ecuador</h5>
+			</div>
+
+			<p>Julio tomaba el control remoto y apretaba el botón rojo para saber que su Colombia por primera vez en la historia ganaba los tres partidos iniciales de una fase de grupos y era su bautismo en cuartos de final de un Mundial. Pero se topó con Brasil y hasta allí llegó. James Rodríguez estalló en la mitad de la cancha mientras David Luiz lo consolaba y le pedía a la gente que lo aplaudiera. En su casa de Medellín, Julio acompañaba sigilosamente esa desazón y sentía húmedas sus mejillas, a pesar de que no quiera reconocer que lloró.<br/>
+			<br/>
+			Del otro lado del mundo, John por más que sumara e hiciera cálculos, su Inglaterra se marchaba en primera fase.<br/>
+			<br/>
+			Una de las decepciones del Mundial, junto a la Italia de Andrea Pirlo, la Portugal de Cristiano Ronaldo y la España campeona del mundo y bicampeona de Europa. Su británica postura flemática, de eterna calma, hacía que pareciera un hombre duro. Sin embargo, por dentro no podía entender cómo la selección que él pensó que llegaría más arriba se marchaba última en el grupo que ganaba Costa Rica.<br/>
+			<br/>
+			Mientras, en Buenos Aires, iba a la parrilla de la esquina a comerse un bife de chorizo, Facundo seguía atentamente los números que eran favorables para los “Albiceleste”. Pero como en el recinto había mucho humo y demasiada gente, se sentó afuera. Mantel de papel, rudimentario, como a él le gusta, y sacó su tablet, donde había bajado una App que era la envidia de sus vecinos: DIRECTV Copa Mundial de la FIFA™. No necesitaba estar viendo la tele para seguir calendarios, grupos, noticias, goles, tiros al arco, tarjetas y cambios.<p>
+		</div>
+	</div>
+
+	<div id="c8-s2" class="slide">
+		<div class="cycle-slideshow" data-cycle-slides=">.item-slide" data-cycle-fx="scrollHorz" data-cycle-timeout="4000" data-cycle-pause-on-hover="true">
+			<div class="slide1-c8s2 item-slide">
+				<div class="spot-c8s2">
+					<img src="img/tv_c8s2.png">
+				</div>
+				<div class="txt-slide1-c8s2">
+					<h1>COMO, CUANDO<br>Y DONDE QUIERAS</h1>
+					<div class="line-c8s2">
+					</div>
+					<p>No te pierdas ningún momento de la<br/>Copa Mundial de la FIFA</p>
+				</div>
+				<div class="caption-c8s2">
+					<p>El que estaba en la silla de al lado, le pidió permiso para acompañarlo. “Con razón mi novia me tiró un par de cifras de Messi. Se había metido acá”,  le comentó con una sonrisa. “Claro, si tiene todos los resultados y las redes sociales, más importantes: Twitter, Facebook y Google+”, le respondió Facundo.<br/>
+					<br/>
+					Además, la aplicación ofreció la oportunidad de disfrutar no sólo de los partidos en vivo, sino de los clips y repeticiones en VOD en teléfonos y tablets.<br>
+					<br>
+					 Y por si fuera poco, estaba DIRECTV Play para ver el Mundial desde computadores, siempre con el sistema multicámara y sus seis señales.  En el gol que gritó Pablo Giralt la emoción fue doble. Al secarse las lágrimas, Facundo se acordaba de su padre, quien le inculcó esa pasión por el fútbol y que ahora estaba muy lejos. Era pura emoción lo suyo. Una alegría que llegó hasta el domingo de la final.</p>
+				</div>
+			</div>
+	
+			<div class="slide2-c8s2 item-slide">
+				<div class="flecha1-c8s2">
+					<img src="img/flecha1_c8s2.png">
+				</div>
+				<div class="tablet1-c8s2">
+					<img src="img/tablet1_c8s2.png">
+				</div>
+			</div>
+	
+			<div class="slide2-c9s2 item-slide">
+				<div class="flecha2-c9s2">
+					<img src="img/flecha2_c8s2.png">
+				</div>
+				<div class="tablet2-c9s2">
+					<img src="img/tablet2_c8s2.png">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="c8-s3" class="slide">
+		<div class="title-c8s3">
+			<h1>STREAMING EN VIVO<br/>DE LOS 64 PARTIDOS</h1>
+			<div class="line-c8s3"></div>
+		</div>
+		<div class="tablet-c8s3">
+			<img src="img/tablet_c8s3.png">
+		</div>
+		<div class="info-c8s3">
+			<img src="img/info_c8s3.png">
+		</div>
+		<div class="tooltip-c8s3">
+			<div class="icon-tooltip-c8s3">
+				<a class="tooltips" href="#">
+					<img src="img/tooltip_icon.png">
+					<span>“Como fanáticos del deporte quisimos estar una vez más a la vanguardia, entregando el mayor espectáculo del mundo con tecnología TV Everywhere. Para ello, ofrecimos la posibilidad de ver todos los encuentros sin importar frente a qué pantalla estuviera el hincha. De esta forma, ampliamos nuestra cobertura a la multipantalla para que todos pudieran acceder a cada minuto del Mundial desde sus computadores, smartphones, tabletas, y obviamente a través del televisor. Así cumplimos con nuestro compromiso de entregar la mejor experiencia en entretenimiento”.</span>
+				</a>
+			</div>
+			<p><span>Atul Bansal</span><br/>
+				Director Senior de New Media<br/>
+				de DIRECTV PanAmericana</p>
+		</div>
+		<div class="multipantalla-c8s3">
+			<img src="img/multipantalla_c8s3.png">
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container-footer">
+			<div class="logo-footer">
+			</div>
+			<div class="cont-rs">
+				<div class="fb">
+					<a href=""><img src="img/fb.png"></a>
+				</div>
+				<div class="tw">
+					<a href=""><img src="img/tw.png"></a>
+				</div>
+				<div class="yt">
+					<a href=""><img src="img/yt.png"></a>
+				</div>
+				<div class="gm">
+					<a href=""><img src="img/gm.png"></a>
+				</div>
+			</div>
+			<div class="indice-footer">
+				<div class="col1-footer">
+					<a class="athome" href="#">HOME</a>
+					<a href="#">01. FILMAR EL MUNDIAL</a>
+					<a href="#">02. VER EL MUNDIAL</a>
+					<a href="#">03. MOSTRAR EL MUNDIAL</a>
+					<a href="#">04. ANALIZAR EL MUNDIAL</a>
+				</div>
+				<div class="col2-footer">
+					<a href="">05. VIVIR EL MUNDIAL</a>
+					<a href="">06. ACERCAR EL MUNDIAL</a>
+					<a href="">07. ENTENDER EL MUNDIAL</a>
+					<a href="">08. JUGAR EL MUNDIAL</a>
+				</div>
+				<div class="col3-footer">
+					<a href="">09. DIRIGIR EL MUNDIAL</a>
+					<a href="">10. LIDERAR EN DEPORTE</a>
+					<a href="">11. LOS RATINGS</a>
+					<p>&nbsp;</p>
+				</div>
+				<div class="col4-footer">
+					<p>&nbsp;</p>
+					<a class="athome" href="">CARTA DEL RECTOR</a>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="js/toucheffects.js"></script>
+<script>
+	$('#footer').css({'top':''+($('#footer').prev('div').offset().top + $('#footer').prev('div').height()  ) +'px'});
+</script>
+</body>
+</html>

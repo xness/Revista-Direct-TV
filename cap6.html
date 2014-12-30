@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DIRECTV</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<!-- <link href="css/animation.css" rel="stylesheet" type="text/css" />-->
+<!-- SEBA -->
+<link href="css/mod.css" rel="stylesheet" type="text/css" />
+<!-- END -->
+<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
+<script src="js/jquery.parallax-1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.scrollorama.js"></script>
+<script src="js/jquery.scrolldeck.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/scrollspy.js"></script>
+<script src="js/animaciones.js"></script>
+<script src="js/jquery.cycle2.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	//$('#nav').localScroll(800);
+
+	RepositionNav();
+	
+	$(window).resize(function(){
+		RepositionNav();
+	});	
+	
+	//.parallax(xPosition, adjuster, inertia, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//adjuster - y position to start from
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+
+
+	$('#header-cap').parallax("50%", 0, 0.1, true);
+	$('#intro-cap1').parallax("50%", 1000, 0.1, true);
+	$('#c1-s2').parallax("50%", 2400, 0.1, true);
+	$('#c1-s3').parallax("50%", 3000, 0.1, true);
+	$('#c1-s4').parallax("50%", 3800, 0.1, true);
+	$('#c1-s5').parallax("50%", 4850, 0.1, true);
+	$('#c1-s6').parallax("50%", 5700, 0.1, true);
+	$('#c1-s7').parallax("50%", 7800, 0.1, true);
+
+
+	var deck = new $.scrolldeck({
+		slides: '.slide',
+		buttons: '#nav-c1 li a',
+		easing: 'easeInOutExpo'
+	});
+
+})
+</script>
+</head>
+
+<body>
+	<ul id="nav-c1" style="top: 80px;">
+		<li class="title-nav-cap">CAPÍTULO 6</li>
+		<li><a href="#intro-cap1" title="Next Section">DIRECTV TIENE LA<br/>HISTORIA</a></li>
+	    <li><a href="#c1-s2" title="Next Section">RECORDACIÓN Y<br/>BRANDING</a></li>
+	    <li><a href="#c1-s4" title="Next Section">VALORACIÓN DEL<br/>COMERCIAL</a></li>
+	    <li><a href="#c1-s5" title="Next Section">MARCAS ASOCIADAS<br/>AL MUNDIAL DE FÚTBOL</a></li>
+	    <li><a href="#c1-s6" title="Next Section">ASOCIACIÓN DE MARCA<br/>A CALIDAD</a></li>
+	    <li><a href="#c1-s7" title="Next Section">INTERÉS EN ADQUIRIR<br/>O UTILIZAR SERVICIOS<br/>DE DIRECTV<br/>REFERIDOS A LA<br/>PUBLICIDAD</a></li>
+	</ul>
+	
+	<div id="header-c6" class="slide">
+
+		<div class="cont-header-cap">
+			<div class="num-cap">
+				<h1>06</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="title-cap">
+				<h1>ACERCAR EL MUNDIAL</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="divider-headc6"></div>
+			<div class="clearfloat"></div>
+			<div class="logo-dtvheader"></div>
+			<div class="clearfloat"></div>
+			<div class="icons-head"></div>
+			<div class="clearfloat"></div>
+		</div>
+		<div class="clearfloat"></div>
+		<!--a href="#jugadores" title="Next Section"><div class="arrow-cap"></div></a-->
+	</div>
+	<div id="c6-s1" class="slide">
+		<div class="box-white-c6">
+			<div class="title-first-section">
+				<h1>DIRECTV<br/>SIEMPRE ACOMPAÑA</h1>
+				<div class="line-c6s1"></div>
+			</div>
+			<div class="tooltip-c1-s1">
+				<div class="icon-tooltip-c1-s1">
+					<a class="tooltips" href="#">
+						<img src="img/tooltip_icon.png">
+						<span>“Nos enfocamos en acercar la marca a los clientes y prospectos, desplazándonos hasta las principales ciudades del país y los sorprendimos con actividades diferenciadoras y divertidas en locaciones de bares y restaurantes. Toda esta interacción, además de la fantástica propuesta para disfrutar del Mundial, “cómo, cuándo y dónde quieras”, nos permitió subir este contenido a nuestras redes sociales, convirtiéndonos en el país de la región con mayor cantidad de menciones y el que mayor cantidad de fans sumó durante el evento. A pesar de no estar representados por nuestra selección en la Copa del Mundo, el público venezolano fue el más activo tanto en las menciones como en los tres concursos que se realizaron a través de nuestras cuentas. Definitivamente DIRECTV fue líder absoluto del share of voice en Venezuela, el que más Trending Topics posicionó y el tercer país con más downloads en la App del Mundial durante este histórico evento”.</span>
+					</a>
+				</div>
+				<h5><span>Alexander Elorriaga</span><br/>
+				Presidente<br/>
+				DIRECTV Venezuela</h5>
+			</div>
+
+			<p>Todos los detalles fueron cubiertos en los distintos programas. Un ecuatoriano estaba al tanto de la formación de Reinaldo Rueda. Un colombiano conocía, a través del periodista Samuel Vargas, las últimos modificaciones que preparaba José Pekerman en su equipo. Un uruguayo siguió el triste final con el castigo a Luis Suárez, después de haber mordido a Giorgio Chiellini en el duelo ante Italia. Un chileno tenía claro si Arturo Vidal estaba en condiciones de jugar el torneo. Un argentino esperaba el reporte de Alejandro Uriona para conocer el estado físico de las estrellas lesionadas, como Sergio Agüero y más tarde Angel Di María. Y hasta un brasileño se enteró de cómo retiraron en helicóptero a Neymar después del impacto en las vértebras.<br/>
+			<br/>
+			No había forma de perderse nada porque DIRECTV estaba siguiendo de cerca a las seis selecciones sudamericanas, con móviles que despachaban desde cada concentración y con entrevistas a los protagonistas. Para que el Mundial fuera de toda Sudamérica, para que llegara a los más de seis millones de suscriptores.<br/>
+			<br/>
+			“El feedback con la gente fue increíble, a pesar de no tener Twitter sabía las repercusiones que tenían las transmisiones de los partidos y de los programas. Lo sentía también caminando en Brasil cuando me encontraba con sudamericanos y, por supuesto, cuando volví a Chile después del Mundial”, añade Rozental.<p>
+		</div>
+	</div> <!--#second-->
+	<div id="c6-s2" class="slide">
+		<div class="info-c6s2">
+			<img src="img/info_c6s2.png">
+		</div>
+		<div class="title-c6s2">
+			<h1>REDES<br/>
+				SOCIALES</h1>
+			<div class="line-c8s2">
+			</div>
+		</div>
+		<div class="txt-c6s2">
+			<p>El que estaba en la silla de al lado, le pidió permiso para acompañarlo. “Con razón mi novia me tiró un par de cifras de Messi. Se había metido acá”,  le comentó con una sonrisa. “Claro, si tiene todos los resultados y las redes sociales, más importantes: Twitter, Facebook y Google+”, le respondió Facundo.<br/>
+			<br/>
+			Además, la aplicación ofreció la oportunidad de disfrutar no sólo de los partidos en vivo, sino de los clips y repeticiones en VOD en teléfonos y tablets.<br/>
+			<br/>
+		 	Y por si fuera poco, estaba DIRECTV Play para ver el Mundial desde computadores, siempre con el sistema multicámara y sus seis señales.  En el gol que gritó Pablo Giralt la emoción fue doble. Al secarse las lágrimas, Facundo se acordaba de su padre, quien le inculcó esa pasión por el fútbol y que ahora estaba muy lejos. Era pura emoción lo suyo. Una alegría que llegó hasta el domingo de la final.</p>
+		</div>
+		<div class="tablet-c6s2">
+			<img src="img/tablet_c6s2.png">
+		</div>
+		<div class="title2-c6s2">
+			<h1>CONCURSOS REDES SOCIALES:<br/>
+			126.000 PARTICIPANTES</h1>
+			<div class="line-c8s2">
+			</div>
+		</div>
+		<div class="cycle-slideshow" data-cycle-slides=">.item-slide" data-cycle-fx="scrollHorz" data-cycle-timeout="4000" data-cycle-pause-on-hover="true">
+			<div class="slider1-c6s2 item-slide">
+				<div class="inner">
+					<div class="box-sl1-c6">
+						<div class="grafico1-c6s2">
+							<img src="img/grafico1_c6s2.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider2-c6s2 item-slide">
+				<div class="inner">
+					<div class="box-sl2-c6">
+						<div class="grafico2-c6s2">
+							<img src="img/grafico2_c6s2.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider3-c6s2 item-slide">
+				<div class="inner">
+					<div class="box-sl3-c6">
+						<div class="grafico3-c6s2">
+							<img src="img/grafico3_c6s2.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mantablet-c6s2">
+			<img src="img/man_tablet_c6s2.png">
+		</div>
+		<div class="flecha-c6s2">
+			<img src="img/flecha_c6s2.png">
+		</div>
+	</div>
+
+	<div id="c6-s3" class="slide">
+		<div class="title-c1-s7">
+			<h1>REDES SOCIALES<br/>MUNDIAL 2014</h1>
+			<div class="line-c4-s5"></div>
+			<!--div class="slider1-c6s3">
+				<img src="img/grf1_c6s3.png">
+			</div-->
+			<div class="slider2-c6s3">
+				<img src="img/grf2_c6s3.png">
+			</div>
+			<div class="poster-c6s3">
+				<img src="img/poster_c6s3.png">
+				<p>2.586.037 visualizaciones en youtube</p>
+			</div>
+			<div class="tooltip-c6s3">
+				<div class="icon-tooltip-c6s3">
+					<a class="tooltips" href="#">
+						<img src="img/tooltip_icon.png">
+						<span>“Ofrecer un contenido sin comparación y diferenciador es parte de nuestro compromiso para entregar la mejor experiencia en entretenimiento. En Brasil 2014 quisimos adueñarnos del Mundial desde una año antes y traspasando la pantalla del televisor. Para esto conversamos directamente con nuestros fanáticos a través de las redes sociales. De esta forma, por ejemplo, se pudo acceder al relato y comentarios de los partidos a través de DIRECTV Sports o de nuestras cuentas en Twitter. Además, todos nuestros programas de análisis y noticias estuvieron conectados a redes sociales. Fue una exitosa y única integración de contenido 2.0 que nos distinguió de nuestros competidores”.</span>
+					</a>
+				</div>
+				<p><span>Guillermo Delfino</span><br>
+				Vicepresidente Senior de Marketing y Ventas<br>
+				DIRECTV PanAmericana</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="c1-s4" class="slide">
+		<div class="title-c1-s4">
+			<h1>VALORACIÓN DEL<br/>COMERCIAL</h1>
+			<div class="line-c1-s4"></div>
+			<p>¿Cuál es la razón por la que a usted le agrada este<br/>comercial?</p>
+		</div>
+		<div class="graficos1-c1-s4">
+			<img src="img/graficos1_c1_s4.png">
+		</div>
+		<div class="graficos2-c1-s4">
+			<img src="img/graficos2_c1_s4.png">
+		</div>
+		<div class="graficos3-c1-s4">
+			<img src="img/graficos3_c1_s4.png">
+		</div>
+	</div>
+
+	<div id="c1-s5" class="slide">
+		<div class="box-white-c1-s5">
+			<div class="title-c1-s5">
+				<h1>MARCAS ASOCIADAS<br/>AL MUNDIAL DE FÚTBOL</h1>
+				<div class="line-c1-s5"></div>
+				<p>Con el 13% DIRECTV es la cuarta marca más asociada al Mundial en el total de las menciones</p>
+			</div>
+			<div class="graficos1-c1-s5">
+				<img src="img/graficos1_c1_s5.png">
+			</div>
+		</div>
+		<!--div class="slide-c1-s5">
+			<div class="aguero"></div>
+			<div class="stats-aguero"></div>
+			<div class="flyer-c1-s5"></div>
+		</div-->
+		<div class="slide-c1-s5">
+			<div class="txt-aguero">
+				<p>En el momento en que el director dice que una patada le tiene que doler al que está mirando por uno de los cinco canales de alta definición, es en serio que le puede llegar a doler. Para eso hay 34 cámaras en los estadios que se encargan de llevar ese y otros detalles.<br/>
+				“¿Dónde están las estrellas? Quiero a los que hacen lo que otros no pueden hacer. Estamos haciendo historia. Estamos escribiendo el destino. Cambiándolo en cada movimiento. Quiero gloria. Quiero más banderas. Más gente. Más pasión. Señoras y señores, esto es la Copa Mundial de la FIFA. Acción”, dispara sin piedad el cineasta. Y esas estrellas comenzaron a verse en la campaña publicitaria que se inició en agosto de 2013. Cuando el argentino Sergio Agüero, el colombiano Radamel Falcao García y el brasileño David Luiz tomaron las banderas del lanzamiento para trasladar la idea de DIRECTV desde una cancha hacia las casas: Vive la Copa Mundial de la FIFA 2014 de una manera única. “Porque nada más importa... que el Mundial” como agrega Falcao en el trailer de la filmación.<br/>
+				Durante los 30 días del Mundial el lema fue claro: Nada más importa.</p>
+			</div>
+			<div class="txt-falcao">
+				<p>“Porque nada más importa<br/>
+					que el Mundial”<br/>
+					FALCAO</p>
+			</div>
+			<div class="spot-c1-s5">
+				<img src="img/spot_c1_s5.jpg">
+			</div>
+		</div>
+	</div>
+
+	<div id="nadamasimporta" class="slide"><img src="img/bg_nmi.jpg"></div>
+
+	<div id="c1-s6" class="slide">
+		<div class="box-white-c1-s6">
+			<div class="txt-c1-s6">
+				<p>“Siempre hace falta una historia. No alcanza con mostrar a sus figuras haciendo ejercicio o estirando los músculos. Yo creo que la belleza de un deporte, ya sea en un largometraje o en un spot, es que pueden funcionar muy bien como alegorías y también como metáforas”, decía Stone en la revista ACCESS DIRECTV.<br/>
+				Y esas historias estaban reflejadas a diario en los distintos contenidos. No sólo en los 64 duelos en HD, sino en los diversos programas que arrancaban con la información de Central Deportivo, se extendían en el análisis de Mundial Total y cerraban el día con Más que Fútbol.<br/>
+				Hacia allá apuntaba el director de cine: “Creo que lo que DIRECTV va a hacer con los 64 partidos en vivo y en HD de la Copa Mundial de la FIFA Brasil 2014TM, introduciendo un sistema de cobertura, lo hará mucho más atractivo. Eso es precisamente lo que yo intento mostrar en el spot”, explica el cineasta.</p>
+			</div>
+		</div>
+		<div class="afiche1-c1-s6"></div>
+		<div class="afiche2-c1-s6"></div>
+		<div class="afiche3-c1-s6"></div>
+	</div>
+
+	<div id="c1-s7" class="slide">
+		<div class="title-c1-s7">
+			<h1>VALORACIÓN DEL<br/>COMERCIAL</h1>
+			<div class="line-c1-s7"></div>
+			<p>6 de cada 10 entrevistados manifiestaron interés<br/>en adquirir y/o utilizar los servicios comunicados,<br/>cifra que aumentó significativamente entre<br/>clientes de DIRECTV.</p>
+		</div>
+		<div class="grafico1-c1-s7">
+			<img src="img/grafico1_c1_s7.png">
+		</div>
+		<div class="txt-c1-s7">
+			<p>PRINCIPAL MENSAJE TRANSMITIDO,<br/>
+				cifra que aumentó significativamente entre clientes de DIRECTV.<br/>
+				<br/>
+				Se observa un alto nivel de registro de la propuesta de valor comunicada en todos los atributos de marca.<br/>
+				¿Cuál es el mensaje o la idea principal transmitida por este comercial que usted pudo haber visto antes o no?</p>
+		</div>
+		<div class="graficos-c1-s7">
+			<div class="graficos1-c1-s7">
+				<img src="img/grf1_cap1_s7.png">
+			</div>
+			<div class="graficos2-c1-s7">
+				<img src="img/grf2_cap1_s7.png">
+			</div>
+			<div class="graficos3-c1-s7">
+				<img src="img/grf3_cap1_s7.png">
+			</div>
+		</div>
+		<div class="tooltip-c1-s7">
+			<div class="icon-tooltip-c1-s7">
+				<a class="tooltips" href="#">
+					<img src="img/tooltip_icon.png">
+					<span>Encontramosmos que la mejor forma de plasmar el Mundial como una experiencia superior y recoger la pasión que genera el fútbol es a través de la lente del destacado y reconocido director de cine Oliver Stone, quien se ha caracterizado por una filmografía comprometida, apasionada y a la vez tremendamente realista. Nuestra campaña demuestra que sólo en DIRECTV se podrá vivir este evento de una manera única: ver lo que otros no podrán ver, sentirse dentro de la cancha, sufrir las jugadas, siendo ésta la máxima experiencia de Brasil 2014. Oliver Stone sorprendió a los televidentes latinoamericanos con su fuerza a la hora de pedir la mejor transmisión del Mundial”.</span>
+				</a>
+			</div>
+			<p><span>JAGG</span><br/>
+				Vicepresidente de Marca y Comunicación Integrada<br/>
+				de DIRECTV PanAmericana</p>
+		</div>
+		<div class="af-c1-s7">
+			<img src="img/af_c1_s7.jpg">
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container-footer">
+			<div class="logo-footer">
+			</div>
+			<div class="cont-rs">
+				<div class="fb">
+					<a href=""><img src="img/fb.png"></a>
+				</div>
+				<div class="tw">
+					<a href=""><img src="img/tw.png"></a>
+				</div>
+				<div class="yt">
+					<a href=""><img src="img/yt.png"></a>
+				</div>
+				<div class="gm">
+					<a href=""><img src="img/gm.png"></a>
+				</div>
+			</div>
+			<div class="indice-footer">
+				<div class="col1-footer">
+					<a class="athome" href="#">HOME</a>
+					<a href="#">01. FILMAR EL MUNDIAL</a>
+					<a href="#">02. VER EL MUNDIAL</a>
+					<a href="#">03. MOSTRAR EL MUNDIAL</a>
+					<a href="#">04. ANALIZAR EL MUNDIAL</a>
+				</div>
+				<div class="col2-footer">
+					<a href="">05. VIVIR EL MUNDIAL</a>
+					<a href="">06. ACERCAR EL MUNDIAL</a>
+					<a href="">07. ENTENDER EL MUNDIAL</a>
+					<a href="">08. JUGAR EL MUNDIAL</a>
+				</div>
+				<div class="col3-footer">
+					<a href="">09. DIRIGIR EL MUNDIAL</a>
+					<a href="">10. LIDERAR EN DEPORTE</a>
+					<a href="">11. LOS RATINGS</a>
+					<p>&nbsp;</p>
+				</div>
+				<div class="col4-footer">
+					<p>&nbsp;</p>
+					<a class="athome" href="">CARTA DEL RECTOR</a>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="js/toucheffects.js"></script>
+<script>
+	$('#footer').css({'top':''+($('#footer').prev('div').offset().top + $('#footer').prev('div').height()  ) +'px'});
+</script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DIRECTV</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
+<script src="js/jquery.parallax-1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.scrollorama.js"></script>
+<script src="js/jquery.scrolldeck.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/scrollspy.js"></script>
+<script src="js/animaciones.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	//$('#nav').localScroll(800);
+
+	RepositionNav();
+	
+	$(window).resize(function(){
+		RepositionNav();
+	});	
+	
+	//.parallax(xPosition, adjuster, inertia, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//adjuster - y position to start from
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	
+
+	$('#header-c4').parallax("50%", 0, 0.1, true);
+	$('#c4-s1').parallax("50%", 0, 0.1, true);
+	$('#c4-s2').parallax("50%", 1000, 0.1, true);
+	$('#c4-s3').parallax("50%", 0, 0.1, true);
+	$('#c4-s4').parallax("50%", 2500, 0.1, true);
+	$('#c4-s5').parallax("50%", 4200, 0.1, true);
+
+	var deck = new $.scrolldeck({
+		slides: '.slide',
+		buttons: '#nav-c1 li a',
+		easing: 'easeInOutExpo'
+	});
+
+})
+</script>
+</head>
+
+<body>
+	<ul id="nav-c1" style="top: 80px;">
+		<li class="title-nav-cap">CAPÍTULO 4</li>
+		<li><a href="#c4-s1" title="Next Section">DIRECTV ES<br/>ESPECIALISTA</a></li>
+	    <li><a href="#c4-s5" title="Next Section">RATING PROMEDIO<br/>POR PROGRAMAS</a></li>
+	</ul>
+	
+	<div id="header-c4" class="slide">
+
+		<div class="cont-header-cap">
+			<div class="num-cap">
+				<h1>04</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="title-cap">
+				<h1>ANALIZAR EL MUNDIAL</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="divider-headc4"></div>
+			<div class="clearfloat"></div>
+			<div class="logo-dtvheader"></div>
+			<div class="clearfloat"></div>
+			<div class="icons-head"></div>
+			<div class="clearfloat"></div>
+		</div>
+		<div class="clearfloat"></div>
+		<!--a href="#jugadores" title="Next Section"><div class="arrow-cap"></div></a-->
+	</div>
+	<div id="c4-s1" class="slide">
+		<div class="box-white-c4">
+			<div class="title-first-section">
+				<h1>DIRECTV<br/>ES ESPECIALISTA</h1>
+				<div class="line-c2-s1"></div>
+			</div>
+			<div class="tooltip-c2-s1">
+				<div class="icon-tooltip-c2-s1">
+					<a class="tooltips" href="#">
+						<img src="img/tooltip_icon.png">
+						<span>“Quisimos tener la máxima cobertura antes, durante y después de los partidos a cargo de un equipo de panelistas altamente especializado y reconocido mundialmente generando un análisis profundo y detallado pero a la vez divertido y fresco. Esto género mucha expectativa en el mercado local en torno al acompañamiento que íbamos a dar al mundial a través de nuestros programas propios y el nivel de análisis de los comentaristas así como la tecnología empleada en el mismo marcó un diferencial súper positivo en nuestros clientes e incluso los no clientes quienes pudieron seguir la cobertura pre y post partido en los diferentes restaurantes, bares y locales que gozaban de la señal de DIRECTV”.</span>
+					</a>
+				</div>
+				<h5><span>Eduardo Catter</span><br/>
+				Gerente Comercial<br/>
+				DIRECTV Perú</h5>
+			</div>
+
+			<p>Fuera de contar con los 64 partidos en HD, se sumaban tres programas que le dieron continuidad al torneo y reflejaban lo que iba sucediendo en cada una de las sedes.<br/>
+			<br/>
+			En Buenos Aires, Facundo tenía, junto al café de la mañana, el tablet listo, el smartphone cargado, el computador prendido y enfrente el día empezaba con Central Deportivo. La venezolana, y también futbolista en sus ratos libres, Milena Gimón, y el argentino Ramiro Penas se encargaban de entregar las noticias con un espectacular fondo de las playas de Río de Janeiro. Los conductores repasaban la actualidad de los equipos, con especial énfasis en los seleccionados sudamericanos. Los móviles despachaban desde las concentraciones y el televidente escuchaba las voces de los protagonistas.<br/>
+			<br/>
+			“La gente tuvo todo el día información de lo que pasaba, repetían los goles a cada rato en los canales, por eso lo que se hacía en Mundial Total era entretener al público y que disfrutara otra visión de la Copa”, agrega Rozental.<br/>
+			Las jornadas se cerraban con Juan Pablo Varsky y Matías Martin en Más que Fútbol, para poner la pelota al piso y hacer un análisis detallado de los partidos. Además, los dos periodistas podían “tirar paredes” con ex futbolistas. Porque para explicar el momento de Argentina estaba Juan Sebastián Verón, en cambio, si la actualidad llevaba a Colombia allí aparecía Juan Pablo Ángel en el panel. Y si tocaba desmenuzar a Chile, Iván Zamorano y Sebastián Rozental se sumaban al programa entregando sus experiencias.<br/>
+			“Éramos como un plantel de fútbol. Vivíamos todos en el mismo edificio en Río de Janeiro. Compartíamos mate, cenas, picadas (picoteos). No hubo ni media discusión en 37 días. Era mucho tiempo, sin embargo el grupo lo llevó bien adelante. Incluso me di el gusto de jugar un partido con Verón, Ángel, Zamorano, Rozental... pero lo suspendí por falta de aire”, cierra sonriendo Penas.<br/>
+			“Soy un privilegiado. He vivido los mundiales de tres maneras: hincha, jugador y comentarista. Sin dudas que la mejor de todas es en la cancha, porque eres protagonista, es para lo que soñaste y te preparaste toda la vida. Me gusta ver el fútbol desde afuera, analizarlo. Intento ser consecuente y decir las cosas que están ocurriendo, aunque haciendo la diferencia entre la crítica constructiva de la destructiva”, comenta Zamorano.<p>
+		</div>
+	</div>
+
+	<div id="c4-s2" class="slide">
+		<div class="title-grf-c4s2">
+			<p>EN CUANTO A COMENTARISTAS, CON JUAN PABLO VARSKY Y<br/>
+			PABLO GIRALT DIRECTV Sports OFRECE MAYOR SATISFACCIÓN</p>
+		</div>
+		<div class="grafico1-c4s2">
+			<img src="img/grafico1_c4s2.png">
+		</div>
+	</div>
+
+	<div id="c4-s3" class="slide">
+		<img src="img/c4s3.jpg">
+	</div>
+
+	<div id="c4-s4" class="slide">
+		<div class="title-grf-c4s4">
+			<p>LA SATISFACCIÓN CON DIRECTV SPORTS ES SUPERIOR A LA<br/>
+			DE LOS OTROS CANALES QUE TRANSMITIERON EL MUNDIAL</p>
+		</div>
+		<div class="grafico2-c4s4">
+			<img src="img/grafico2_c4s4.png">
+		</div>
+	</div>
+	<div id="c4-s5" class="slide">
+		<div class="title-c1-s7">
+			<h1>RATING PROMEDIO<br>POR PROGRAMAS</h1>
+			<div class="line-c4-s5"></div>
+			<h2>MÁS QUE FUTBOL, MUNDIAL TOTAL Y CENTRAL DEPORTIVO</h2>
+			<p>Se observa en el gráfico la evolución que tuvieron los programas: Más que Fútbol, Mundial Total y Central Deportivo. El primero alcanzó un peak cercano a los 6 puntos de Rating Promedio el 4 de julio, correspondiente a los inicios de los cuartos de final. Mundial Total también tuvo su punto máximo para esa misma fecha, alcanzando valores cercanos a los 10 puntos promedio. Por su parte, Central Deportivo se mantuvo más estable y por debajo de los primeros dos, con cimas que rodean los 4 puntos en varios momentos del Torneo.<br/>
+			En todos los casos hay que destacar que las mayores performances correspondieron a los días en los que hubo encuentros, mientras que los valores más bajos fueron justamente los días de descanso entre etapas.</p>
+		</div>
+		<div class="grafico-c4s5">
+			<img src="img/grafico_c4s5.png">
+		</div>
+		<div class="medel-c4s5">
+			<img src="img/medel_c4s5.jpg">
+		</div>
+		<div class="tooltip-c4s5">
+			<div class="icon-tooltip-c4s5">
+				<a class="tooltips" href="#">
+					<img src="img/tooltip_icon.png">
+					<span>Encontramosmos que la mejor forma de plasmar el Mundial como una experiencia superior y recoger la pasión que genera el fútbol es a través de la lente del destacado y reconocido director de cine Oliver Stone, quien se ha caracterizado por una filmografía comprometida, apasionada y a la vez tremendamente realista. Nuestra campaña demuestra que sólo en DIRECTV se podrá vivir este evento de una manera única: ver lo que otros no podrán ver, sentirse dentro de la cancha, sufrir las jugadas, siendo ésta la máxima experiencia de Brasil 2014. Oliver Stone sorprendió a los televidentes latinoamericanos con su fuerza a la hora de pedir la mejor transmisión del Mundial”.</span>
+				</a>
+			</div>
+			<p><span>Fabián Godoy</span><br>
+				Comentarista DIRECTV Sports</p>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container-footer">
+			<div class="logo-footer">
+			</div>
+			<div class="cont-rs">
+				<div class="fb">
+					<a href=""><img src="img/fb.png"></a>
+				</div>
+				<div class="tw">
+					<a href=""><img src="img/tw.png"></a>
+				</div>
+				<div class="yt">
+					<a href=""><img src="img/yt.png"></a>
+				</div>
+				<div class="gm">
+					<a href=""><img src="img/gm.png"></a>
+				</div>
+			</div>
+			<div class="indice-footer">
+				<div class="col1-footer">
+					<a class="athome" href="#">HOME</a>
+					<a href="#">01. FILMAR EL MUNDIAL</a>
+					<a href="#">02. VER EL MUNDIAL</a>
+					<a href="#">03. MOSTRAR EL MUNDIAL</a>
+					<a href="#">04. ANALIZAR EL MUNDIAL</a>
+				</div>
+				<div class="col2-footer">
+					<a href="">05. VIVIR EL MUNDIAL</a>
+					<a href="">06. ACERCAR EL MUNDIAL</a>
+					<a href="">07. ENTENDER EL MUNDIAL</a>
+					<a href="">08. JUGAR EL MUNDIAL</a>
+				</div>
+				<div class="col3-footer">
+					<a href="">09. DIRIGIR EL MUNDIAL</a>
+					<a href="">10. LIDERAR EN DEPORTE</a>
+					<a href="">11. LOS RATINGS</a>
+					<p>&nbsp;</p>
+				</div>
+				<div class="col4-footer">
+					<p>&nbsp;</p>
+					<a class="athome" href="">CARTA DEL RECTOR</a>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="js/toucheffects.js"></script>
+<script>
+	$('#footer').css({'top':''+($('#footer').prev('div').offset().top + $('#footer').prev('div').height()  ) +'px'});
+</script>
+</body>
+</html>

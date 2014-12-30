@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DIRECTV</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
+<script src="js/jquery.parallax-1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.scrollorama.js"></script>
+<script src="js/jquery.scrolldeck.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/scrollspy.js"></script>
+<script src="js/animaciones.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	//$('#nav').localScroll(800);
+
+	RepositionNav();
+	
+	$(window).resize(function(){
+		RepositionNav();
+	});	
+	
+	//.parallax(xPosition, adjuster, inertia, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//adjuster - y position to start from
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	
+
+	$('#header-c2').parallax("50%", 0, 0.1, true);
+	$('#c2-s1').parallax("50%", 0, 0.1, true);
+	$('#c2-s2').parallax("50%", 2150, 0.1, true);
+	$('#c2-s3').parallax("50%", 3450, 0.1, true);
+	$('#c2-s4').parallax("50%", 4450, 0.08, true);
+	$('.af1-c2s4').parallax("50%", 4740, 1.4, true);
+	$('.af2-c2s4').parallax("70%", 4740, 1.2, true);
+	$('.af3-c2s4').parallax("98%", 4740, 1.4, true);
+
+
+	var deck = new $.scrolldeck({
+		slides: '.slide',
+		buttons: '#nav-c1 li a',
+		easing: 'easeInOutExpo'
+	});
+
+})
+</script>
+</head>
+
+<body>
+	<ul id="nav-c1" style="top: 80px;">
+		<li class="title-nav-cap">CAPÍTULO 2</li>
+		<li><a href="#c2-s1" title="Next Section">DIRECTV OFRECE<br/>LA MEJOR EXPERIENCIA</a></li>
+	    <li><a href="#c2-s3" title="Next Section">DIRECTV<br/>en la historia del Mundial</a></li>
+	    <li><a href="#c2-s4" title="Next Section">RAZONES DE <br/>CONTRATACIÓN DIRECTV</a></li>
+	</ul>
+	
+	<div id="header-c2" class="slide">
+
+		<div class="cont-header-cap">
+			<div class="num-cap">
+				<h1>02</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="title-cap">
+				<h1>VER EL MUNDIAL</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="divider-headc2"></div>
+			<div class="clearfloat"></div>
+			<div class="logo-dtvheader"></div>
+			<div class="clearfloat"></div>
+			<div class="icons-head"></div>
+			<div class="clearfloat"></div>
+		</div>
+		<div class="clearfloat"></div>
+		<!--a href="#jugadores" title="Next Section"><div class="arrow-cap"></div></a-->
+	</div>
+	<div id="c2-s1" class="slide">
+		<div class="box-white-c2">
+			<div class="title-first-section">
+				<h1>DIRECTV OFRECE<br/>LA MEJOR EXPERIENCIA</h1>
+				<div class="line-c2-s1"></div>
+			</div>
+			<div class="tooltip-c2-s1">
+				<div class="icon-tooltip-c2-s1">
+					<a class="tooltips" href="#">
+						<img src="img/tooltip_icon.png">
+						<span>“Sin duda nuestra oferta tecnológica en el Mundial fue una catapulta que nos ayudó a generar mayor interés en los suscriptores. Dimos de que hablar por nuestras creativas campañas, excelente cobertura, despliegue periodístico y tecnología de primera. Nuestro primer objetivo era brindar a nuestros suscriptores un evento de primera que exceda sus expectativas. Lo logramos exitosamente”.</span>
+					</a>
+				</div>
+				<h5><span>Nicolás Landázuri</span><br/>
+				Director Comercial<br/>
+				DIRECTV Ecuador</h5>
+			</div>
+
+			<p>John es empleado de un banco en Londres, Julio es periodista en Medellín y Facundo trabaja en una oficina en Buenos Aires. Los tres, desde sus distintos mundos, están unidos. Los tres sostienen –como los entrenadores, jugadores y periodistas– que el fútbol ha cambiado. Y tienen razón. Aunque más se ha modificado el espectáculo que envuelve al fútbol. Y todavía más, la tecnología que rodea las transmisiones de los partidos.<br/>
+			<br/>
+			Cuatro años después, en Corea y Japón, el mismo inglés se dio cuenta que DIRECTV fue pionero en la transmisión de un juego con la multicámara. John se sentía realizado y se maravillaba con Brasil campeón del mundo, mientras en una misma pantalla podía ver el partido y tener a Ronaldo en el mosaico con su flequillo inolvidable sobre la cabeza rapada. Para él, los encuentros eran al mediodía y no tenía que sufrir tanto con los horarios, como Julio y Facundo.<br/>
+			Pero siempre hay más en DIRECTV. Y Alemania 2006 entregó la novedad de ver el retorno de Italia a la cima del mundo en el formato 16:9. Ahora la pantalla era un poco más horizontal. Facundo estaba igual contento en Argentina, porque se acordaba del abuelo, que era de esos “tanos” que vinieron a “hacer la América”.<p>
+		</div>
+	</div>
+
+	<div id="c2-s2" class="slide">
+
+		<div class="graficos1-c2-s2">
+			<img src="img/grf2_c2_s2.png">
+		</div>
+		<div class="graficos2-c2-s2">
+			<img src="img/grf_c2_s2.png">
+		</div>
+		<div class="txt-c2-s2">
+			<p>Por eso disfrutó y se emocionó con el llanto de Fabio Grosso tras el último penal en Berlín, en esa nueva configuración que brindaba la televisión. Era el paso inicial hacia la alta definición, que llegaría en la primera Copa del Mundo organizada en el continente africano.<br/>
+			Julio lo siguió de cerca allá en su Medellín natal. Era su primer Mundial como profesional y más allá de no tener a su país disputando el torneo, sabía que iba a ser diferente. Porque lo vivió en HD del 11 de junio hasta el 11 de julio. Desde el zurdazo al gol del local Siphiwe Tshabalala a México hasta el derechazo de Andrés Iniesta para entregarle la primera corona a España. Con el inconfundible sonido de las vuvuzelas de fondo en cada uno de los 64 partidos.<p>
+		</div>
+		<div class="txt-blockc2s2">
+			<p>PARA EL MUNDIAL BRASIL 2014 SE COMUNICÓ:</p>
+		</div>
+		<div class="block-c2-s2">
+		</div>
+	</div>
+
+	<div id="c2-s3" class="slide">
+		<div class="title-c1-s4">
+			<h1>DIRECTV<br/>en la historia del Mundial</h1>
+			<div class="line-c2-s3"></div>
+		</div>
+		<div class="timeline-c2-s3">
+			<img src="img/timeline_c2_s3.png">
+		</div>
+		<div class="manphone"></div>
+		<div class="printcel"></div>
+		<div class="txt-c2-s3">
+			<p>Los tres saben que siempre DIRECTV va por más. Y la Copa Mundial de la FIFA Brasil 2014TM tenía otras historias para contar. Un Mundial que no sólo daba la posibilidad de ver los partidos en vivo y en cinco canales HD, sino desde cualquier punto, sin necesidad de estar frente al televisor. Por eso, John podía esperar el bus de dos pisos de Londres para volver a su casa del barrio de Chelsea, mientras seguía uno de los 64 partidos en su smartphone y comentaba un fallo del árbitro en Twitter, que inmediatamente tenía la respuesta de Facundo quien se encontraba en la capital argentina. Él estaba siguiendo el partido en su tablet en la línea B del subte de Buenos Aires, que lo iba a dejar en su oficina. Claro que antes de llegar pasaba por el café, miraba de reojo el mismo partido en HD y compraba algunas medialunas.<br/>
+			<br/>
+			A muchos kilómetros de distancia, Julio estaba en la redacción preparando la pauta en la mañana paisa y buscaba en su laptop el mismo duelo mundialero. Aprovechaba las ventanas de servicios de DIRECTV para mirar el calendario y programar la tarde. Era un día para unas arepas y fútbol.<br/>
+			“La experiencia del Mundial fue maravillosa. Fue el gran salto de popularidad que nos faltaba. Digo de popularidad porque es notable el crecimiento y la penetración de DIRECTV en toda Latinoamérica. Y la verdad es que la calidad ha sido siempre la misma, de alto nivel. Siempre innovando, ya sea con multicámara, HD o las aplicaciones que en este Mundial fueron furor”, detalla el comentarista argentino Fabián Godoy, uno del plantel de DIRECTV Sports que estuvo en Brasil.<p>
+		</div>
+	</div>
+
+	<div id="c2-s4" class="slide">
+		<div class="manmac"></div>
+		<div class="af1-c2s4"></div>
+		<div class="af2-c2s4"></div>
+		<div class="af3-c2s4"></div>
+	</div>
+
+	<div id="footer">
+		<div class="container-footer">
+			<div class="logo-footer">
+			</div>
+			<div class="cont-rs">
+				<div class="fb">
+					<a href=""><img src="img/fb.png"></a>
+				</div>
+				<div class="tw">
+					<a href=""><img src="img/tw.png"></a>
+				</div>
+				<div class="yt">
+					<a href=""><img src="img/yt.png"></a>
+				</div>
+				<div class="gm">
+					<a href=""><img src="img/gm.png"></a>
+				</div>
+			</div>
+			<div class="indice-footer">
+				<div class="col1-footer">
+					<a class="athome" href="#">HOME</a>
+					<a href="#">01. FILMAR EL MUNDIAL</a>
+					<a href="#">02. VER EL MUNDIAL</a>
+					<a href="#">03. MOSTRAR EL MUNDIAL</a>
+					<a href="#">04. ANALIZAR EL MUNDIAL</a>
+				</div>
+				<div class="col2-footer">
+					<a href="">05. VIVIR EL MUNDIAL</a>
+					<a href="">06. ACERCAR EL MUNDIAL</a>
+					<a href="">07. ENTENDER EL MUNDIAL</a>
+					<a href="">08. JUGAR EL MUNDIAL</a>
+				</div>
+				<div class="col3-footer">
+					<a href="">09. DIRIGIR EL MUNDIAL</a>
+					<a href="">10. LIDERAR EN DEPORTE</a>
+					<a href="">11. LOS RATINGS</a>
+					<p>&nbsp;</p>
+				</div>
+				<div class="col4-footer">
+					<p>&nbsp;</p>
+					<a class="athome" href="">CARTA DEL RECTOR</a>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="js/toucheffects.js"></script>
+<script>
+	$('#footer').css({'top':''+($('#footer').prev('div').offset().top + $('#footer').prev('div').height()  ) +'px'});
+</script>
+</body>
+</html>

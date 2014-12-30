@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DIRECTV</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
+<script src="js/jquery.parallax-1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.scrollorama.js"></script>
+<script src="js/jquery.scrolldeck.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/scrollspy.js"></script>
+<script src="js/animaciones.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	//$('#nav').localScroll(800);
+
+	RepositionNav();
+	
+	$(window).resize(function(){
+		RepositionNav();
+	});	
+	
+	//.parallax(xPosition, adjuster, inertia, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//adjuster - y position to start from
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	
+
+	$('#header-c9').parallax("50%", 0, 0.1, true);
+	$('#c9-s1').parallax("50%", 500, 0.1, true);
+	$('#c9-s2').parallax("50%", 2600, 0.1, true);
+
+	var deck = new $.scrolldeck({
+		slides: '.slide',
+		buttons: '#nav-c1 li a',
+		easing: 'easeInOutExpo'
+	});
+
+})
+</script>
+</head>
+
+<body>
+	<ul id="nav-c1" style="top: 80px;">
+		<li class="title-nav-cap">CAPÍTULO 9</li>
+		<li><a href="#c9-s1" title="Next Section">DIRECTV ES<br/>INTERACTIVO</a></li>
+	    <li><a href="#c9-s2" title="Next Section">CANAL 600</a></li>
+	</ul>
+	
+	<div id="header-c9" class="slide"> 
+
+		<div class="cont-header-cap">
+			<div class="num-cap">
+				<h1>09</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="title-cap">
+				<h1>DIRIGIR EL MUNDIAL</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="divider-headc9"></div>
+			<div class="clearfloat"></div>
+			<div class="logo-dtvheader"></div>
+			<div class="clearfloat"></div>
+			<div class="icons-head"></div>
+			<div class="clearfloat"></div>
+		</div>
+		<div class="clearfloat"></div>
+		<!--a href="#jugadores" title="Next Section"><div class="arrow-cap"></div></a-->
+	</div>
+	<div id="c9-s1" class="slide">
+		<div class="box-white-c9">
+			<div class="title-first-section">
+				<h1>DIRECTV<br/>ES INTERACTIVO</h1>
+				<div class="line-c9s1"></div>
+			</div>
+			<div class="tooltip-c2-s1">
+				<div class="icon-tooltip-c2-s1">
+					<a class="tooltips" href="#">
+						<img src="img/tooltip_icon.png">
+						<span>“No lo dijimos nosotros, lo dijeron nuestros clientes. DIRECTV cumplió con el compromiso de entregar la mejor experiencia en video a cualquier hora y en cualquier lugar. Durante el evento deportivo más importante del mundo, DIRECTV ofreció la cobertura más completa en contenido y la mejor tecnología de vanguardia. Logramos llevar la experiencia a cada rincón del país desde cualquier dispositivo y esto permitió que nuestros usuarios no se perdieran ningún minuto de cada uno de los 64 encuentros. Como si fuera poco, los clientes demostraron la alegría de vivir la mejor experiencia tecnológica con el sistema multicámara, estadísticas en línea, repetición de jugadas, cronogramas, comparativos, sin ningún costo  para todos los  planes  de programación. Las cifras lo demostraron, Colombia ocupó el primer lugar en descargas de la aplicación con más de 400 mil”.</span>
+					</a>
+				</div>
+				<h5><span>María Elvira Restrepo</span><br/>
+				Vicepresidenta de Mercadeo<br/>
+				DIRECTV Colombia</h5>
+			</div>
+
+			<p>El consuelo que entregaba David Luiz a James Rodríguez se volvió necesario para el defensa cuatro días después, cuando en el mismo estadio Mineirao de Belo Horizonte, donde Brasil se salvó del tiro en el travesaño de Pinilla, ese que los hubiera eliminado en octavos, sufrió la humillación más grande de un local y de su rica historia: cayó 7-1 con Alemania, que a los 29 minutos ya ganaba 5-0. Los primeros planos de algunas de las 34 cámaras del estadio tomaban la desazón de los de afuera y la frustración de los de adentro.<br/>
+			<br/>
+			Por más que tuvieras DIRECTV Plus y apretaras el botón para cambiar esa historia, no había forma. Pausa, graba y retrocede, pero no puede torcer una realidad dura para el “Scratch”. Buscabas en el canal 600, el portal interactivo, los datos de los equipos, los jugadores, destacados del partido, resultados, los grupos que disputaron hasta llegar a ese momento, faltas, tarjetas, goleadores, y todas la estadísticas escudriñando una respuesta a lo que estabas viendo, un detalle técnico. John y Facundo revisaban su simulación para verificar qué habían proyectado antes de ese día.<p>
+		</div>
+	</div>
+
+	<div id="c9-s2" class="slide">
+		<div class="slide1-c8s2">
+			
+			<div class="spot-c9s2">
+				<img src="img/tv_c9s2.png">
+				<p>IMÁGENES DEL PORTAL INTERACTIVO</p>
+			</div>
+			<div class="txt-slide1-c8s2">
+				<h1>CANAL 600</h1>
+				<div class="line-c8s2">
+				</div>
+				<p>Información sobre programación,<br/>
+				destacados, estadísticas y mucho más.</p>
+			</div>
+			<div class="caption-c9s2">
+				<p>Sólo aparecía otro cachetazo duro en Brasil. Como en 1950. Fue el momento más cercano a lo que pedía el cineasta al inicio del lanzamiento de la campaña publicitaria. Aquella frase de Stone golpeaba duro en el país pentacampeón del mundo. “Quiero que la gente tenga miedo de mirar”, decía el director.<br/>
+				<br/>
+				Y millones de personas no lo sabían, pero estaba claro que tenían temor de mirar hacia la televisión. La imagen que devolvía no era la que esperaban. No era el desenlace de la película que querían. No se paren de sus asientos que la cinta de DIRECTV todavía entregaría más emociones.</p>
+			</div>
+			<div class="poster-c9s2">
+				<img src="img/poster_c9s2.jpg">
+			</div>
+			<div class="tooltip-c9s2">
+				<div class="icon-tooltip-c9s2">
+					<a class="tooltips" href="#">
+						<img src="img/tooltip_icon.png">
+						<span>“Brasil 2014 fue la mayor cobertura interactiva de TV disponible de la historia, que solo fue posible para el absoluto líder en deportes. DIRECTV brindó una experiencia superior a través de la multicámara, el descubrimiento amigable de los partidos con nuestra guía de programación de última generación, estadísticas actualizadas en vivo, y un portal especializado dedicado al Mundial en el canal 600. La combinación de la mejor transmisión en HD, la mejor interactividad en pantalla y la mejor experiencia de producto hizo que los clientes de DIRECTV tuvieran una experiencia ganadora”.</span>
+					</a>
+				</div>
+				<p><span>Alex Cano</span><br>
+				Director de Desarrollo de Productos y Experiencia<br>
+				de Usuario de DIRECTV LatinAmérica</p>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="footer">
+		<div class="container-footer">
+			<div class="logo-footer">
+			</div>
+			<div class="cont-rs">
+				<div class="fb">
+					<a href=""><img src="img/fb.png"></a>
+				</div>
+				<div class="tw">
+					<a href=""><img src="img/tw.png"></a>
+				</div>
+				<div class="yt">
+					<a href=""><img src="img/yt.png"></a>
+				</div>
+				<div class="gm">
+					<a href=""><img src="img/gm.png"></a>
+				</div>
+			</div>
+			<div class="indice-footer">
+				<div class="col1-footer">
+					<a class="athome" href="#">HOME</a>
+					<a href="#">01. FILMAR EL MUNDIAL</a>
+					<a href="#">02. VER EL MUNDIAL</a>
+					<a href="#">03. MOSTRAR EL MUNDIAL</a>
+					<a href="#">04. ANALIZAR EL MUNDIAL</a>
+				</div>
+				<div class="col2-footer">
+					<a href="">05. VIVIR EL MUNDIAL</a>
+					<a href="">06. ACERCAR EL MUNDIAL</a>
+					<a href="">07. ENTENDER EL MUNDIAL</a>
+					<a href="">08. JUGAR EL MUNDIAL</a>
+				</div>
+				<div class="col3-footer">
+					<a href="">09. DIRIGIR EL MUNDIAL</a>
+					<a href="">10. LIDERAR EN DEPORTE</a>
+					<a href="">11. LOS RATINGS</a>
+					<p>&nbsp;</p>
+				</div>
+				<div class="col4-footer">
+					<p>&nbsp;</p>
+					<a class="athome" href="">CARTA DEL RECTOR</a>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="js/toucheffects.js"></script>
+<script>
+	$('#footer').css({'top':''+($('#footer').prev('div').offset().top + $('#footer').prev('div').height()  ) +'px'});
+</script>
+</body>
+</html>

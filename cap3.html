@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DIRECTV</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<!-- SEBA -->
+<link href="css/mod.css" rel="stylesheet" type="text/css" />
+<!-- END -->
+<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
+<script src="js/jquery.parallax-1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.scrollorama.js"></script>
+<script src="js/jquery.scrolldeck.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/scrollspy.js"></script>
+<script src="js/animaciones.js"></script>
+<script src="js/jquery.cycle2.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	//$('#nav').localScroll(800);
+
+	RepositionNav();
+	
+	$(window).resize(function(){
+		RepositionNav();
+	});	
+	
+	//.parallax(xPosition, adjuster, inertia, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//adjuster - y position to start from
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	
+
+	$('#header-c2').parallax("50%", 0, 0.1, true);
+	$('#c3-s1').parallax("50%", 1800, 0.1, true);
+	$('#c3-s2').parallax("50%", 2500, 0.1, true);
+	$('#c3-s3').parallax("50%", 4000, 0.1, true);
+	$('#c3-s4').parallax("50%", 5000, 0.1, true);
+
+	var deck = new $.scrolldeck({
+		slides: '.slide',
+		buttons: '#nav-c1 li a',
+		easing: 'easeInOutExpo'
+	});
+
+})
+</script>
+</head>
+
+<body>
+	<ul id="nav-c1" style="top: 80px;">
+		<li class="title-nav-cap">CAPÍTULO 3</li>
+		<li><a href="#c3-s1" title="Next Section">DIRECTV CUBRE<br/>TODOS LOS ÁNGULOS</a></li>
+	    <li><a href="#c3-s3" title="Next Section">LA AUDIENCIA</a></li>
+	    <li><a href="#c3-s4" title="Next Section">COBERTURA DEL<br/>MUNDIAL POR DIRECTV</a></li>
+	</ul>
+	
+	<div id="header-c3" class="slide">
+
+		<div class="cont-header-cap">
+			<div class="num-cap">
+				<h1>03</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="title-cap">
+				<h1>MOSTRAR EL MUNDIAL</h1>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="divider-headc3"></div>
+			<div class="clearfloat"></div>
+			<div class="logo-dtvheader"></div>
+			<div class="clearfloat"></div>
+			<div class="icons-head"></div>
+			<div class="clearfloat"></div>
+		</div>
+		<div class="clearfloat"></div>
+		<!--a href="#jugadores" title="Next Section"><div class="arrow-cap"></div></a-->
+	</div>
+	<div id="c3-s1" class="slide">
+		<div class="tv-c3s1">
+		</div>
+		<div class="box-white-c3">
+			<div class="title-first-section">
+				<h1>DIRECTV CUBRE<br/>TODOS LOS ÁNGULOS</h1>
+				<div class="line-c3-s1"></div>
+			</div>
+			<div class="tooltip-c3-s1">
+				<div class="icon-tooltip-c3-s1">
+					<a class="tooltips" href="#">
+						<img src="img/tooltip_icon.png">
+						<span>“Estar en el evento deportivo más importante del mundo da cuenta de nuestro liderazgo. No olvidemos que los mejores futbolistas y entrenadores trabajan durante toda su carrera por participar en la Copa. Al ser nosotros parte activa, en cobertura y contenidos, nos posicionamos como un jugador serio y sólido del fútbol, la mayor industrai del entretenimiento hoy”</span>
+					</a>
+				</div>
+				<h5><span>Rick Nerod</span><br/>
+				Vicepresidente Senior de Programación<br/>
+				DIRECTV Latin América</h5>
+			</div>
+
+			<p>Julio se sentó en el living de su casa con unas arepas de queso y una cerveza helada en la mano derecha. Tomó el control remoto y tenía los cinco canales de DIRECTV para verlo. La transmisión principal estaba en el 610, 611 ó 1610. Pero él quería desmenuzar un poco más a los equipos y se fue al 613 ó 1613 para ver los movimientos tácticos del conjunto A. Con la toma aérea se dio cuenta que se paraba con un 4-2-3-1, no se quedó allí en su análisis y comenzó a seguir a una de las figuras, usando la cámara que registra especialmente las jugadas de esa selección. Sabía, como reportero detallista que es, que la señal tiene cinco ángulos distintos para meterse en el Mundial.<br/>
+			<br/>
+			
+			“Desde lo tecnológico, DIRECTV marcó dos pautas diferentes a todas las demás opciones: la señal táctica y la posibilidad de elegir quién te narraba el partido. Esas dos alternativas han sido revolucionarias, ya que podías ver los movimientos de cada equipo con una cámara aérea (alimento preciado para los analistas) y, por otro lado, decidías con qué dupla de relato y comentario querías ver tu juego. Esa posibilidad no tiene comparación frente a lo que existe en el actual mercado”, grafica Godoy.<br/>
+			Con su control remoto, el colombiano puso el 614 ó 1614 y simulaba ser un stopper, una marca personal que perseguía al jugador por toda la cancha y tenía cada uno de sus movimientos. Ni siquiera el defensa del otro equipo conocía tanto los desplazamientos de ese delantero como Julio, o mejor dicho como los televidentes que se quedaron con esa ventana de la programación. Si quería cambiarse de equipo, y estar más cerca del otro elenco, iba al 615 ó 1615 para conocer hasta los tics de esa estrella que se tocaba el pelo a cada rato mientras esperaba entrar en acción.<br/>
+			No se quedaba allí, ya que a veces se perdía un momento del partido para recibir una llamada telefónica o algún Twitter de algún amigo que le comentaba una jugada. Entonces se iba a 616 ó 1616 para tener los momentos más destacados del encuentro, los goles o las jugadas polémicas. En definitiva, el televidente se podía meter en la cancha con DIRECTV. Casi como Oliver Stone en el aviso. La diferencia es que no podía interrumpir o cambiar el desenlace del juego.<br/>
+			“Todo lo que DIRECTV entregó es realmente increíble, desde las cámaras alternativas hasta los audios opcionales. Creo que la gran ventaja es que hay de todo para todos, tanto para los más futboleros como para el aficionado de Mundial. A nosotros, los comentaristas, por ejemplo, las cámaras tácticas nos ayudaban mucho para analizar el juego desde otra perspectiva, podíamos ver los movimientos de los equipos, cómo se paraban tácticamente defendiendo y en ataque”, explica el chileno Sebastián Rozental, otro de los analistas de la señal.<p>
+		</div>
+	</div>
+	<div id="c3-s2" class="slide">
+		<div class="slider-c3-s2 cycle-slideshow" data-cycle-slides=">.item-slide" data-cycle-fx="scrollHorz" data-cycle-timeout="4000" data-cycle-pause-on-hover="true">
+			<div class="slide1-c3s2 item-slide">
+				<div class="txt-left-c3s2">
+					<p><span>Los clientes usaron<br/>
+						DIRECTV Sports</span><br/>
+						porque se ve mejor,<br/>
+						por los servicios adicionales y la<br/>
+						tecnología HD</p>
+				</div>
+				<div class="txt-right-c3s2">
+					<div class="title-rgt-c3s2">
+						<h2>SISTEMA MULTICÁMARA</h2>
+						<p>Cinco canales reunidos en uno solo (612 en SD y<br/>
+						1612 en HD) generan el Mosaico Interactivo.<br/>
+						En una sola pantalla se ven los distintos ángulos<br/>
+						de un partido al mismo tiempo. </p>
+					</div>
+					<div class="cont-txt-c3s2">
+						<div class="num-c3s2">
+							<h1>01.</h1>
+						</div>
+						<div class="desc-int-c3s2">
+							<p>CANAL PRINCIPAL (610 SD / HD 1610)<br/>
+							En esta señal el cliente vio el partido desde la<br/>
+							cámara principal tal como ve actualmente un<br/>
+							partido de fútbol. Cuando no hubo partido, vio<br/>
+							programación original y repeticiones de<br/>
+							encuentros anteriores.</p>
+						</div>
+					</div>
+					<div class="cont-txt-c3s2">
+						<div class="num-c3s2">
+							<h1>02.</h1>
+						</div>
+						<div class="desc-int-c3s2">
+							<p>CÁMARA TÁCTICA (613 SD / HD 1613)<br/>
+							Es el canal desde la cámara aérea, donde se pudo<br/>
+							visualizar cómo se posicionaban ambos equipos<br/>
+							en el terreno de juego y sus sistemas tácticos.</p>
+						</div>
+					</div>
+					<div class="cont-txt-c3s2">
+						<div class="num-c3s2">
+							<h1>03.</h1>
+						</div>
+						<div class="desc-int-c3s2">
+							<p>JUGADORES DESTACADOS EQUIPO A (614 SD / HD<br/>
+							1614)
+							Acá el suscriptor vio los 3 mejores jugadores<br/>
+							seleccionados por la FIFA de uno de los equipos<br/>
+							que estaba jugando. La cámara lo siguió por la<br/>
+							cancha durante todo el partido y mostró la<br/>
+							actividad del banco de suplentes.</p>
+						</div>
+					</div>
+					<div class="cont-txt-c3s2">
+						<div class="num-c3s2">
+							<h1>04.</h1>
+						</div>
+						<div class="desc-int-c3s2">
+							<p>JUGADORES DESTACADOS EQUIPO B (615 SD / HD<br/>
+							1615)
+							Esta señal siguió por toda la cancha durante el<br/>
+							partido completo a los mejores jugadores y la<br/>
+							actividad del banco de suplentes del otro equipo.</p>
+						</div>
+					</div>
+					<div class="cont-txt-c3s2">
+						<div class="num-c3s2">
+							<h1>05.</h1>
+						</div>
+						<div class="desc-int-c3s2">
+							<p>DESTACADOS (616 SD / HD 1616)<br/>
+							En este canal el cliente vio los momentos<br/>
+							destacados del partido que se jugaron en<br/>
+							repetición permanente para poder actualizarse en<br/>
+							el instante en el que ocurría la acción.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slide2-c3s2 item-slide">
+				<img src="img/slide2_c3s2.jpg">
+			</div>
+
+		</div>
+	</div>
+
+	<div id="c3-s3" class="slide">
+		<div class="title-c3-s3">
+			<h1>LA AUDIENCIA</h1>
+			<div class="line-c3-s3"></div>
+			<p>El servicio de medición de audiencia de DIRECTV empezó en 1999, siendo el primer sistema de ratings en Latinoamérica. Para ello, utiliza datos recolectados en forma pasiva, anónima y confidencial desde los receptores conectados vía telefónica o de Internet en Argentina, Brasil, Chile, Colombia, Perú, Uruguay y Venezuela.<br/>
+			Hoy cuenta con más de 23.309 receptores medidos diariamente, lo que representa la mayor muestra de TV digital de Latinoamérica.</p>
+		</div>
+		<div class="title-grf-c3s3">
+			<h2>TOP 6 PARTIDOS COPA MUNDIAL<br/>
+			DE LA FIFA BRASIL 2014TM<br/>
+			Ratings y Households</h2>
+		</div>
+		<div class="pelota1-c3s3">
+			<img src="img/pelotas1_c3s3.png">
+		</div>
+		<div class="pelota2-c3s3">
+			<img src="img/pelotas2_c3s3.png">
+		</div>
+		<div class="pelota3-c3s3">
+			<img src="img/pelotas3_c3s3.png">
+		</div>
+
+		<div class="title2-grf-c3s3">
+			<h2>RATING PROMEDIO TOTAL POR DÍA<br/>
+				Día Completo</h2>
+		</div>
+		<div class="txt-c3s3">
+			<p>El Mundial promedió valores por encima de los cinco puntos, teniendo un máximo de cerca de 11 puntos el 14 de junio, coincidente con los partidos Colombia vs. Grecia, Uruguay vs. Costa Rica, Inglaterra vs. Italia y Costa de Marfil vs. Japón. Presumiblemente, las mediciones se vieron arrastradas hacia arriba en los encuentros que tuvieron como protagonistas a los dos países latinoamericanos y a las potencias futbolísticas de Inglaterra e Italia.</p>
+		</div>
+		<a href=""><div class="btn1-ver-rating">
+			<p>Ver rating</p><div class="icon-mas"><img src="img/icon_mas.png"></div>
+		</div></a>
+
+		<div class="title3-grf-c3s3">
+			<h2>RATING PROMEDIO TOTAL POR PARTIDO<br/>
+			Ratings, Households y Cume</h2>
+		</div>
+		<div class="txt2-c3s3">
+			<p>La infografía refleja la medición de cada partido y su alcance. Como es de esperar, el peak de las mediciones se presentó en el último partido del Torneo, disputado entre Alemania y Argentina. Es interesante observar que todos –excepto uno– de los duelos que superaron los 20 puntos de Cume, tuvieron a un país latinoamericano como protagonista, con excepción del encuentro entre Italia e Inglaterra.</p>
+		</div>
+		<a href=""><div class="btn2-ver-rating">
+			<p>Ver rating</p><div class="icon-mas"><img src="img/icon_mas.png"></div>
+		</div></a>
+	</div>
+
+	<div id="c3-s4" class="slide">
+		<div class="title-rgt-c3s4">
+			<h1>COBERTURA<br/>
+			del Mundial por DIRECTV</h1>
+			<div class="line-c3s4"></div>
+		</div>
+		<div class="cobertura">
+			<div class="maps">
+				<a href="">
+					<div class="icon1-c3s4">
+						<img src="img/01_c3s4.png">
+					</div>
+				</a>
+				<a href="">
+					<div class="icon2-c3s4">
+						<img src="img/02_c3s4.png">
+					</div>
+				</a>
+				<a href="">
+					<div class="icon3-c3s4">
+						<img src="img/03_c3s4.png">
+					</div>
+				</a>
+				<a href="">
+					<div class="icon4-1-c3s4">
+						<img src="img/04_c3s4.png">
+					</div>
+				</a>
+				<a href="">
+					<div class="icon4-2-c3s4">
+						<img src="img/04_c3s4.png">
+					</div>
+				</a>
+			</div>
+			<!--div class="item1-c3s4">
+				<h2>01.</h2>
+				<p>La FIFA produce los partidos en los estadios de la<br/>
+				Copa del Mundo.</p>
+			</div>
+			<div class="item2-c3s4">
+				<h2>02.</h2>
+				<p>DIRECTV agrega la narración a estos partidos<br/>
+				desde los estadios o desde el centro de<br/>
+				transmisión internacional (el IBC) en Río de<br/>
+				Janeiro tácticos.</p>
+			</div>
+			<div class="item3-c3s4">
+				<h2>03.</h2>
+				<p>Esta señal se envía al centro de transmisión de<br/>
+				DIRECTV Sports en Buenos Aires.</p>
+			</div-->
+			<div class="item4-c3s4">
+				<h2>04.</h2>
+				<p>Se reenvía por fibra óptica a los centros de<br/>
+				transmisión de DIRECTV en Argentina, Venezuela<br/>
+				y Los Ángeles, y desde ahí se sube al satélite, que<br/>
+				le entrega la señal completa a los espectadores de<br/>
+				cada país.</p>
+			</div>
+		</div>
+		<div class="tooltip-c3-s4">
+			<div class="icon-tooltip-c3-s4">
+				<a class="tooltips" href="#">
+					<img src="img/tooltip_icon.png">
+						<span>“El gran diferencial de DIRECTV es que ofrece desde sus inicios televisión cien por ciento digital, esto ya permite entregar un contenido nítido y sin interferencias. Si se agrega la tecnología de vanguardia en la que trabajamos día a día, se tiene como resultado transmisiones que sorprenden al suscriptor permitiéndole vivir experiencias únicas. DIRECTV es una mezcla de la mejor programación y tecnología de punta, la que innovamos especialmente para nuestros televidentes latinoamericanos”.</span>
+				</a>
+			</div>
+			<h5><span>Rudy Ramírez</span><br/>
+			Director Senior de Productos y Servicios<br/>
+			Avanzados de DIRECTV Latin América</h5>
+		</div>
+	</div>
+
+	<div id="c3-s5" class="slide">
+		<img src="img/c3-s5.jpg">
+	</div>
+
+	<div id="footer">
+		<div class="container-footer">
+			<div class="logo-footer">
+			</div>
+			<div class="cont-rs">
+				<div class="fb">
+					<a href=""><img src="img/fb.png"></a>
+				</div>
+				<div class="tw">
+					<a href=""><img src="img/tw.png"></a>
+				</div>
+				<div class="yt">
+					<a href=""><img src="img/yt.png"></a>
+				</div>
+				<div class="gm">
+					<a href=""><img src="img/gm.png"></a>
+				</div>
+			</div>
+			<div class="indice-footer">
+				<div class="col1-footer">
+					<a class="athome" href="#">HOME</a>
+					<a href="#">01. FILMAR EL MUNDIAL</a>
+					<a href="#">02. VER EL MUNDIAL</a>
+					<a href="#">03. MOSTRAR EL MUNDIAL</a>
+					<a href="#">04. ANALIZAR EL MUNDIAL</a>
+				</div>
+				<div class="col2-footer">
+					<a href="">05. VIVIR EL MUNDIAL</a>
+					<a href="">06. ACERCAR EL MUNDIAL</a>
+					<a href="">07. ENTENDER EL MUNDIAL</a>
+					<a href="">08. JUGAR EL MUNDIAL</a>
+				</div>
+				<div class="col3-footer">
+					<a href="">09. DIRIGIR EL MUNDIAL</a>
+					<a href="">10. LIDERAR EN DEPORTE</a>
+					<a href="">11. LOS RATINGS</a>
+					<p>&nbsp;</p>
+				</div>
+				<div class="col4-footer">
+					<p>&nbsp;</p>
+					<a class="athome" href="">CARTA DEL RECTOR</a>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="js/toucheffects.js"></script>
+<script>
+	$('#footer').css({'top':''+($('#footer').prev('div').offset().top + $('#footer').prev('div').height()  ) +'px'});
+</script>
+</body>
+</html>
